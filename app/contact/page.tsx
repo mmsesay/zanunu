@@ -51,8 +51,8 @@ export default function Contact() {
         </svg>
       ),
       title: 'Email',
-      content: 'info@zanunu.com',
-      link: 'mailto:info@zanunu.com',
+      content: 'zanunu@gmail.com',
+      link: 'mailto:zanunu@gmail.com',
     },
     {
       icon: (
@@ -61,8 +61,8 @@ export default function Contact() {
         </svg>
       ),
       title: 'Phone',
-      content: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      content: '+232 (79) 316-767',
+      link: 'tel:+232 (79) 316-767',
     },
     {
       icon: (
@@ -72,7 +72,7 @@ export default function Contact() {
         </svg>
       ),
       title: 'Location',
-      content: '123 Studio Street, City, State 12345',
+      content: '123 Studio Street, Aberdeen, Freetown, Sierra Leone',
       link: '#',
     },
   ];
@@ -146,7 +146,7 @@ export default function Contact() {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d4af37] focus:border-transparent outline-none transition-all"
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="+232 (79) 316-767"
                   />
                 </div>
 
@@ -236,11 +236,11 @@ export default function Contact() {
                 <ul className="space-y-2 text-[#800020]">
                   <li className="flex justify-between">
                     <span>Monday - Friday</span>
-                    <span className="font-semibold">9:00 AM - 6:00 PM</span>
+                    <span className="font-semibold">9:00 AM - 9:00 PM</span>
                   </li>
                   <li className="flex justify-between">
                     <span>Saturday</span>
-                    <span className="font-semibold">10:00 AM - 4:00 PM</span>
+                    <span className="font-semibold">10:00 AM - 9:00 PM</span>
                   </li>
                   <li className="flex justify-between">
                     <span>Sunday</span>

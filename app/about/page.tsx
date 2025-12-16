@@ -164,7 +164,7 @@ export default function About() {
                 description: 'Successful photography and printing projects delivered',
               },
               {
-                number: '10+',
+                number: '3+',
                 label: 'Years of Experience',
                 description: 'Dedicated service in photography and printing excellence',
               },

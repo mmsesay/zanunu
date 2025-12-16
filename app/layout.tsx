@@ -18,6 +18,15 @@ export const metadata: Metadata = {
   title: "Zanunu Studio - Professional Photography & Printing Services",
   description: "Capturing moments, creating memories. Professional photography and printing press services with excellence and artistry.",
   keywords: "photography, printing, studio, professional photography, printing services, Sierra Leone Photo Studio, Salone, Salone Photo Studio, Sierra Leone Photo Press, Salone Photo Press",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/zanunu-logo.jpg", type: "image/jpeg", sizes: "32x32" },
+    ],
+    apple: [
+      { url: "/zanunu-logo.jpg", sizes: "180x180", type: "image/jpeg" },
+    ],
+  },
   openGraph: {
     title: "Zanunu Studio - Professional Photography & Printing Services",
     description: "Capturing moments, creating memories. Professional photography and printing press services with excellence and artistry.",
