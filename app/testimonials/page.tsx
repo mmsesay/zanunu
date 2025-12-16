@@ -8,7 +8,7 @@ export default function Testimonials() {
       role: 'Bride',
       image: '/zanunu-logo.jpg',
       rating: 5,
-      text: 'Zanunu Studio captured our wedding day perfectly! Every moment was beautifully documented, and the photos exceeded our expectations. The team was professional, friendly, and made us feel so comfortable throughout the day.',
+      text: 'Zanunu Portrait Studio captured our wedding day perfectly! Every moment was beautifully documented, and the photos exceeded our expectations. The team was professional, friendly, and made us feel so comfortable throughout the day.',
       service: 'Wedding Photography',
     },
     {
@@ -26,7 +26,7 @@ export default function Testimonials() {
       role: 'Event Coordinator',
       image: '/zanunu-logo.jpg',
       rating: 5,
-      text: 'Working with Zanunu Studio was a pleasure. They captured our corporate event beautifully, and the turnaround time was impressive. The photos perfectly captured the energy and professionalism of our event.',
+      text: 'Working with Zanunu Portrait Studio was a pleasure. They captured our corporate event beautifully, and the turnaround time was impressive. The photos perfectly captured the energy and professionalism of our event.',
       service: 'Event Photography',
     },
     {
@@ -71,7 +71,7 @@ export default function Testimonials() {
             Client Testimonials
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto">
-            Hear from our satisfied clients about their experience with Zanunu Studio
+            Hear from our satisfied clients about their experience with Zanunu Portrait Studio
           </p>
         </div>
       </section>

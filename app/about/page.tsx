@@ -1,4 +1,20 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
+
+export const metadata: Metadata = {
+  title: 'About Us - Zanunu Portrait Studio | Professional Photography & Printing',
+  description: 'Learn about Zanunu Portrait Studio - a photography and printing studio in Sierra Leone dedicated to capturing life\'s precious moments and transforming them into lasting memories with excellence and artistry.',
+  keywords: 'about Zanunu Portrait Studio, photography studio Sierra Leone, printing studio, professional photographers, photo studio history',
+  openGraph: {
+    title: 'About Us - Zanunu Portrait Studio',
+    description: 'Where artistry meets excellence in photography and printing',
+    url: 'https://zanunu.com/about',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://zanunu.com/about',
+  },
+};
 
 export default function About() {
   const values = [
@@ -69,7 +85,7 @@ export default function About() {
                   <div className="relative w-32 h-32">
                     <Image
                       src="/zanunu-logo.jpg"
-                      alt="Zanunu Studio"
+                      alt="Zanunu Portrait Studio"
                       fill
                       className="object-cover rounded-full border-4 border-white"
                     />
@@ -83,7 +99,7 @@ export default function About() {
               </h2>
               <div className="w-24 h-1 bg-gradient-to-r from-[#800020] to-[#d4af37] mb-6"></div>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-                Zanunu Studio was founded with a simple yet powerful vision: to capture life's most precious moments and transform them into lasting memories through the art of photography and printing.
+                Zanunu Portrait Studio was founded with a simple yet powerful vision: to capture life's most precious moments and transform them into lasting memories through the art of photography and printing.
               </p>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 With years of experience in both photography and printing, we've built a reputation for excellence, creativity, and attention to detail. Our team combines technical expertise with artistic vision to deliver results that exceed expectations.
@@ -135,7 +151,7 @@ export default function About() {
               To provide exceptional photography and printing services that capture the essence of every moment and transform them into beautiful, lasting memories. We are committed to excellence, creativity, and customer satisfaction in everything we do.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              At Zanunu Studio, we believe that every story deserves to be told beautifully, and every memory deserves to be preserved with care and artistry.
+              At Zanunu Portrait Studio, we believe that every story deserves to be told beautifully, and every memory deserves to be preserved with care and artistry.
             </p>
           </div>
         </div>

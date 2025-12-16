@@ -1,4 +1,20 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'Our Services - Photography & Printing | Zanunu Portrait Studio',
+  description: 'Professional photography services including weddings, portraits, events, and commercial photography. Premium printing services for photos, albums, canvases, and custom prints in Sierra Leone.',
+  keywords: 'photography services, printing services, wedding photography, portrait photography, event photography, photo printing, canvas prints, photo albums, Sierra Leone',
+  openGraph: {
+    title: 'Our Services - Photography & Printing | Zanunu Portrait Studio',
+    description: 'Professional photography and printing solutions tailored to your needs',
+    url: 'https://zanunu.com/services',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://zanunu.com/services',
+  },
+};
 
 export default function Services() {
   const photographyServices = [
